@@ -26,6 +26,8 @@ public class Lab_110_MobileDefaultParamConstructors {
             System.out.println("Parameterised constructor");
             this.Model_name =Model_NameC;
             this.Model_year=Model_numberC;
+            // this is a keyword
+            // only for this instance or the object the parameters belong when called /initialised.
         }
 
         void display(){
