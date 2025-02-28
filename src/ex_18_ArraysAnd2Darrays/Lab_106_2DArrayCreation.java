@@ -19,10 +19,12 @@ public class Lab_106_2DArrayCreation {
 
         for (int i = 0; i < array2d1.length; i++) {
             for (int j = 0; j < array2d1.length; j++) {
-                System.out.println(array2d1[i][j]);
-                System.out.println(str[i][j]);
+                System.out.print(array2d1[i][j]);
+                //System.out.println(str[i][j]);
+                System.out.print(" | ");
 
             }
+            System.out.println();
         }
 
 
